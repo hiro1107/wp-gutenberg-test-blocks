@@ -1,0 +1,148 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.panel {
+  margin-bottom: 0px;
+  border: 1px solid #e8ebe9;
+  background-color: #fff;
+  border-radius: 0px; }
+
+.panel-header {
+  background: #ecf0f1; }
+
+.panel-body {
+  position: relative;
+  padding: 20px; }
+
+.panel-footer {
+  background: #fff; }
+
+.panel-no-border {
+  border: none; }
+
+.panel-no-border-top {
+  border-top: none; }
+
+.panel-body + .panel-body:before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  height: 1px;
+  left: 20px;
+  right: 20px;
+  border-top: 1px solid #e8ebe9;
+  border-color: rgba(220, 224, 224, 0.5); }
+
+.panel-header:first-child, .panel-body:first-child, ul.panel-body > li:first-child, ol.panel-body > li:first-child, .panel-footer:first-child {
+  border-top: 0; }
+
+.panel-body > *:first-child {
+  margin-top: 0; }
+
+.panel-body > *:last-child {
+  margin-bottom: 0; }
+
+.panel-body:before, .panel-body:after {
+  content: " ";
+  display: block; }
+
+.panel-header + .panel-body, .panel-body + .panel-body, ul.panel-body > li + .panel-body, ol.panel-body > li + .panel-body, .panel-footer + .panel-body {
+  border-top: none; }
+
+.panel-header, .panel-body, ul.panel-body > li, ol.panel-body > li, .panel-footer {
+  position: relative;
+  margin: 0;
+  padding: 20px;
+  border-top: 1px solid #e8ebe9; }
+
+.panel-body-no-border {
+  border-top: none; }
+
+.panel-with-shadow {
+  -webkit-box-shadow: rgba(35, 35, 53, 0.258824) 2px 3px 14px 0px;
+          box-shadow: rgba(35, 35, 53, 0.258824) 2px 3px 14px 0px; }
+
+.panel-header {
+  color: #565a5c;
+  font-size: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e8ebe9; }
+
+.panel-header-img {
+  padding: 0;
+  border-bottom: none;
+  position: relative;
+  height: 150px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.panel-small-radius {
+  border-radius: 5px; }
+
+.panel-medium-radius {
+  border-radius: 10px; }
+
+.panel-large-radius {
+  border-radius: 15px; }
+
+.panel-light-blue {
+  background-color: #f4f7f8; }
+
+.panel-sky {
+  background-color: #f4f8fd; }
+
+.panel-light-yellow {
+  background-color: #fffae9;
+  border: 1px solid #ffeebc; }
+
+.panel-dark-gray {
+  background-color: #80939C; }
+
+.panel-light-gray {
+  background-color: #fafbfb; }
+
+.panel-light-red {
+  background-color: #fceeee; }
+
+.alert-header.panel-header {
+  text-transform: none;
+  padding: 15px;
+  border-radius: 0; }
+
+.alert-header.panel-header.alert-with-icon {
+  min-height: 55px;
+  padding-left: 76px; }
+
+.alert-with-icon.alert-header.panel-header {
+  min-height: 100px;
+  padding-left: 110px; }
+
+.booking-panel .panel-header {
+  padding-top: 7px;
+  padding-bottom: 7px; }
+
+ul.panel-body > li, ol.panel-body > li {
+  position: relative; }
+
+ul.panel-body, ol.panel-body {
+  padding: 0;
+  list-style: none; }
+
+.panel-body-no-padding {
+  padding: 0; }
+
+.course-panel {
+  height: 280px; }
